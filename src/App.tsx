@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
+import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
+import ContactUs from './components/ContactUs';
+import Home from './components/Home';
+import { ThemeProvider } from '@material-ui/core/styles';
+import DefaultTheme from './theme';
+import MyFavorites from './components/MyFavorites';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+     <ThemeProvider theme={DefaultTheme}>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/home' component={Home} />
+        <Route exact path='/contact' component={ContactUs} />
+        <Route exact path='/favorites' component={MyFavorites} />
+        <Redirect to='/' />
+      </Switch>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
-
-export default App;
