@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/car-dealership-demo/static/css/main.e86364d6.css",
+    "main.js": "/car-dealership-demo/static/js/main.d608a646.js",
+    "static/media/homecar.jpeg": "/car-dealership-demo/static/media/homecar.603d62959a98b11c06d2.jpeg",
+    "static/media/contact.jpeg": "/car-dealership-demo/static/media/contact.9af28669fb3ba3924f27.jpeg",
+    "static/media/teko-all-400-normal.woff": "/car-dealership-demo/static/media/teko-all-400-normal.2b3a8334fb17f73079b8.woff",
+    "static/media/nexus.jpeg": "/car-dealership-demo/static/media/nexus.147161127f5746d9fe55.jpeg",
+    "static/media/monarch.jpeg": "/car-dealership-demo/static/media/monarch.feb7c23aea547901cd44.jpeg",
+    "static/media/teko-devanagari-400-normal.woff2": "/car-dealership-demo/static/media/teko-devanagari-400-normal.8a28e7084dcfaf45966d.woff2",
+    "static/media/marutisuzuki.jpeg": "/car-dealership-demo/static/media/marutisuzuki.cd59d50d60603ea66877.jpeg",
+    "static/media/teko-latin-400-normal.woff2": "/car-dealership-demo/static/media/teko-latin-400-normal.7e4d4736b1c0c88ed403.woff2",
+    "static/media/teko-latin-ext-400-normal.woff2": "/car-dealership-demo/static/media/teko-latin-ext-400-normal.3b6ad77d7bbe46224c2b.woff2",
+    "index.html": "/car-dealership-demo/index.html",
+    "main.e86364d6.css.map": "/car-dealership-demo/static/css/main.e86364d6.css.map",
+    "main.d608a646.js.map": "/car-dealership-demo/static/js/main.d608a646.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e86364d6.css",
+    "static/js/main.d608a646.js"
+  ]
+}
